@@ -1,8 +1,10 @@
 'use strict';
 
+require('dotenv').config();
 const mongoose = require('mongoose');
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
+// const middleware = require('./middleware');
 
 const users = new mongoose.Schema({
   username: {type:String, required:true, unique:true},
@@ -19,9 +21,7 @@ users.pre('save', async function() {
 });
 
 users.statics.createFromOauth = function(email) {
-
   if(! email) { return Promise.reject('Validation Error'); }
-
   return this.findOne( {email} )
     .then(user => {
       if( !user ) { throw new Error('User Not Found'); }
@@ -43,6 +43,14 @@ users.statics.authenticateBasic = function(auth) {
     .then( user => user && user.comparePassword(auth.password) )
     .catch(error => {throw error;});
 };
+// bear auth
+users.statics.authenticateToken = function (token) {
+  let parsedToken = jwt.verify(token, process.env.SECRET);
+  return this.findOne({ _id:parsedToken.id });
+  // if(Date.now()>=15 * 60) {
+  //   return _authError();
+  // }
+};
 
 users.methods.comparePassword = function(password) {
   return bcrypt.compare( password, this.password )
@@ -50,13 +58,17 @@ users.methods.comparePassword = function(password) {
 };
 
 users.methods.generateToken = function() {
-
   let token = {
     id: this._id,
     role: this.role,
   };
 
-  return jwt.sign(token, process.env.SECRET);
+  var verifyOptions = {
+    expiresIn:  "15m"
+  };
+
+
+  return jwt.sign(token, process.env.SECRET, verifyOptions);
 };
 
 module.exports = mongoose.model('users', users);
