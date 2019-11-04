@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826d1eee-610a-4b0f-99d5-548e5ce2a09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/WiredTiger" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/WiredTiger.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/WiredTigerLAS.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/_mdb_catalog.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/collection-0-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/collection-2-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/collection-4-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/collection-7-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2019-10-31T00-27-23Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-1-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-3-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-5-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-6-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-8-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/index-9-6956769856015963123.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/journal/WiredTigerPreplog.0000000001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/journal/WiredTigerPreplog.0000000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/storage.bson" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/users-model.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/users-model.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -92,7 +63,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572472689387</updated>
-      <workItem from="1572472690846" duration="8906000" />
+      <workItem from="1572472690846" duration="9391000" />
+      <workItem from="1572892298547" duration="4182000" />
     </task>
     <servers />
   </component>
@@ -104,7 +76,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
