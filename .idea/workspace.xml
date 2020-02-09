@@ -3,15 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="826d1eee-610a-4b0f-99d5-548e5ce2a09f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-4-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-6956769856015963123.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-02-09T10-39-59Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-02-09T10-39-59Z-00000" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-5-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-6956769856015963123.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-6-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-6956769856015963123.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +59,7 @@
       <updated>1572472689387</updated>
       <workItem from="1572472690846" duration="9391000" />
       <workItem from="1572892298547" duration="8175000" />
-      <workItem from="1581244735700" duration="1967000" />
+      <workItem from="1581244735700" duration="2233000" />
     </task>
     <servers />
   </component>
