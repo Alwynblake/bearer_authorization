@@ -2,24 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="826d1eee-610a-4b0f-99d5-548e5ce2a09f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-02-09T10-39-59Z-00000" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/auth/image-model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.turtle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/collection-2-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-2-6956769856015963123.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/collection-4-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/collection-4-6956769856015963123.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/index-3-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-3-6956769856015963123.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-02-09T10-39-59Z-00000" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.2020-02-09T10-39-59Z-00000" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" beforeDir="false" afterPath="$PROJECT_DIR$/db/diagnostic.data/metrics.interim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-5-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-5-6956769856015963123.wt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/index-6-6956769856015963123.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/index-6-6956769856015963123.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000001" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/db/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" beforeDir="false" afterPath="$PROJECT_DIR$/db/journal/WiredTigerLog.0000000002" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/db/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/middleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/middleware.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/auth/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/auth/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +65,7 @@
       <updated>1572472689387</updated>
       <workItem from="1572472690846" duration="9391000" />
       <workItem from="1572892298547" duration="8175000" />
-      <workItem from="1581244735700" duration="1400000" />
+      <workItem from="1581244735700" duration="1967000" />
     </task>
     <servers />
   </component>
@@ -95,5 +87,23 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1647" height="339" key="GridCell.Tab.0.bottom" timestamp="1581247412151">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1647" height="339" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.978@1680.23.1920.1057" timestamp="1581247412151" />
+    <state width="1647" height="339" key="GridCell.Tab.0.center" timestamp="1581247412150">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1647" height="339" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.978@1680.23.1920.1057" timestamp="1581247412150" />
+    <state width="1647" height="339" key="GridCell.Tab.0.left" timestamp="1581247412149">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1647" height="339" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.978@1680.23.1920.1057" timestamp="1581247412149" />
+    <state width="1647" height="339" key="GridCell.Tab.0.right" timestamp="1581247412150">
+      <screen x="1680" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1647" height="339" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.978@1680.23.1920.1057" timestamp="1581247412150" />
   </component>
 </project>
